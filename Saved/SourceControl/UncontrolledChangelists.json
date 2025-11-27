@@ -1,0 +1,24 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Yigit/Documents/Unreal Projects/GraduationProject/Content/TopDown/MI_Colorway.uasset",
+				"C:/Users/Yigit/Documents/Unreal Projects/GraduationProject/Content/Levels/Lvl_Test.umap",
+				"C:/Users/Yigit/Documents/Unreal Projects/GraduationProject/Content/Characters/Enemies/AI/BT_EnemyBase.uasset",
+				"C:/Users/Yigit/Documents/Unreal Projects/GraduationProject/Content/Characters/Enemies/AI/BB_EnemyBase.uasset",
+				"C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/LevelPrototyping/Meshes/SM_ChamferCube.uasset",
+				"C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/LevelPrototyping/Meshes/SM_Cylinder.uasset",
+				"C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/LevelPrototyping/Meshes/SM_QuarterCylinder.uasset",
+				"C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/LevelPrototyping/Interactable/Target/Assets/SM_TargetBaseMesh.uasset",
+				"C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_Door.uasset",
+				"C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_DoorFrame_Corner.uasset",
+				"C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/LevelPrototyping/Interactable/Door/Assets/Meshes/SM_DoorFrame_Edge.uasset",
+				"C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularBand.uasset",
+				"C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/LevelPrototyping/Interactable/JumpPad/Assets/Meshes/SM_CircularGlow.uasset"
+			]
+		}
+	]
+}
