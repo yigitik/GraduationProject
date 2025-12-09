@@ -1,2 +1,3 @@
-2025/11/27-20:48:55.117 64b4 Creating DB C:/Users/Yigit/Documents/Unreal Projects/GraduationProject/Saved/webcache_4430\Local Storage\leveldb since it was missing.
-2025/11/27-20:48:55.126 64b4 Reusing MANIFEST C:/Users/Yigit/Documents/Unreal Projects/GraduationProject/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2025/12/05-16:53:48.852 515c Reusing MANIFEST C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2025/12/05-16:53:48.857 515c Recovering log #3
+2025/12/05-16:53:48.858 515c Reusing old log C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/webcache_4430\Local Storage\leveldb/000003.log 
