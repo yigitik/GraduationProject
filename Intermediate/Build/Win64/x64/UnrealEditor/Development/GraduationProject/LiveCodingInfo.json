@@ -1,0 +1,10 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GraduationProject.gen.cpp.obj": [
+			"EnvQueryTest_ManualScore.gen.cpp.obj",
+			"GraduationProject.init.gen.cpp.obj",
+			"MyTestActor.gen.cpp.obj"
+		]
+	}
+}

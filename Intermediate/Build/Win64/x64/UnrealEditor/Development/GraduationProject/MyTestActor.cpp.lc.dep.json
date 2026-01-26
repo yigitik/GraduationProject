@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\yigit\\documents\\github\\graduationproject\\source\\graduationproject\\mytestactor.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\yigit\\documents\\github\\graduationproject\\intermediate\\build\\win64\\x64\\graduationprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\yigit\\documents\\github\\graduationproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\graduationproject\\definitions.graduationproject.h",
+            "c:\\users\\yigit\\documents\\github\\graduationproject\\source\\graduationproject\\mytestactor.h",
+            "c:\\users\\yigit\\documents\\github\\graduationproject\\intermediate\\build\\win64\\unrealeditor\\inc\\graduationproject\\uht\\mytestactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

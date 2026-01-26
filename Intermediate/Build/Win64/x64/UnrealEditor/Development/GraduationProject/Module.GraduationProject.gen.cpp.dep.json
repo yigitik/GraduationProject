@@ -1,0 +1,35 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\yigit\\documents\\github\\graduationproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\graduationproject\\module.graduationproject.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\yigit\\documents\\github\\graduationproject\\intermediate\\build\\win64\\x64\\graduationprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\yigit\\documents\\github\\graduationproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\graduationproject\\definitions.graduationproject.h",
+            "c:\\users\\yigit\\documents\\github\\graduationproject\\intermediate\\build\\win64\\unrealeditor\\inc\\graduationproject\\uht\\envquerytest_manualscore.gen.cpp",
+            "c:\\users\\yigit\\documents\\github\\graduationproject\\source\\graduationproject\\envquerytest_manualscore.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\environmentquery\\envquerytest.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\environmentquery\\items\\envqueryitemtype.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\envqueryitemtype.generated.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\environmentquery\\envquerycontext.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\envquerycontext.generated.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\environmentquery\\envquerytypes.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\behaviortree\\behaviortreetypes.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\behaviortree\\blackboard\\blackboardkey.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\behaviortreetypes.generated.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\envquerytypes.generated.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\dataproviders\\aidataprovider.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\aidataprovider.generated.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\source\\runtime\\aimodule\\classes\\environmentquery\\envquerynode.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\envquerynode.generated.h",
+            "d:\\unrealengine\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\envquerytest.generated.h",
+            "c:\\users\\yigit\\documents\\github\\graduationproject\\intermediate\\build\\win64\\unrealeditor\\inc\\graduationproject\\uht\\envquerytest_manualscore.generated.h",
+            "c:\\users\\yigit\\documents\\github\\graduationproject\\intermediate\\build\\win64\\unrealeditor\\inc\\graduationproject\\uht\\graduationproject.init.gen.cpp",
+            "c:\\users\\yigit\\documents\\github\\graduationproject\\intermediate\\build\\win64\\unrealeditor\\inc\\graduationproject\\uht\\mytestactor.gen.cpp",
+            "c:\\users\\yigit\\documents\\github\\graduationproject\\source\\graduationproject\\mytestactor.h",
+            "c:\\users\\yigit\\documents\\github\\graduationproject\\intermediate\\build\\win64\\unrealeditor\\inc\\graduationproject\\uht\\mytestactor.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

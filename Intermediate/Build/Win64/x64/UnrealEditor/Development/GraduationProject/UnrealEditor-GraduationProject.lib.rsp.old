@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GraduationProject.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:/Users/Yigit/Documents/GitHub/GraduationProject/Intermediate/Build/Win64/x64/GraduationProjectEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_3.h.obj"
+"C:/Users/Yigit/Documents/GitHub/GraduationProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/GraduationProject/Module.GraduationProject.gen.cpp.obj"
+"C:/Users/Yigit/Documents/GitHub/GraduationProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/GraduationProject/GraduationProject.cpp.obj"
+"C:/Users/Yigit/Documents/GitHub/GraduationProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/GraduationProject/MyTestActor.cpp.obj"
+"C:/Users/Yigit/Documents/GitHub/GraduationProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/GraduationProject/PerModuleInline.gen.cpp.obj"
+"C:/Users/Yigit/Documents/GitHub/GraduationProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/GraduationProject/Default.rc2.res"
+/OUT:"C:/Users/Yigit/Documents/GitHub/GraduationProject/Intermediate/Build/Win64/x64/UnrealEditor/Development/GraduationProject/UnrealEditor-GraduationProject.lib"
