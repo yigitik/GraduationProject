@@ -132,6 +132,40 @@ struct Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics
 		{ "Category", "ManualScore" },
 		{ "ModuleRelativePath", "EnvQueryTest_ManualScore.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bDrawRawScore_MetaData[] = {
+		{ "Category", "ManualScore|Debug" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// --------------------------\n// DEBUG: RawScore'u noktalar\xc4\xb1n \xc3\xbczerinde yazd\xc4\xb1r\n// --------------------------\n" },
+#endif
+		{ "ModuleRelativePath", "EnvQueryTest_ManualScore.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "DEBUG: RawScore'u noktalar\xc4\xb1n \xc3\xbczerinde yazd\xc4\xb1r" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DebugLabelZOffset_MetaData[] = {
+		{ "Category", "ManualScore|Debug" },
+		{ "ClampMin", "0.0" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Yaz\xc4\xb1y\xc4\xb1 noktan\xc4\xb1n \xc3\xbcst\xc3\xbcnde biraz y\xc3\xbckseltmek i\xc3\xa7in\n" },
+#endif
+		{ "ModuleRelativePath", "EnvQueryTest_ManualScore.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Yaz\xc4\xb1y\xc4\xb1 noktan\xc4\xb1n \xc3\xbcst\xc3\xbcnde biraz y\xc3\xbckseltmek i\xc3\xa7in" },
+#endif
+		{ "UIMin", "0.0" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DebugDuration_MetaData[] = {
+		{ "Category", "ManualScore|Debug" },
+		{ "ClampMin", "0.0" },
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// 0 = sadece o frame (query s\xc3\xbcrekli \xc3\xa7""al\xc4\xb1\xc5\x9f\xc4\xb1yorsa yeterli)\n" },
+#endif
+		{ "ModuleRelativePath", "EnvQueryTest_ManualScore.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "0 = sadece o frame (query s\xc3\xbcrekli \xc3\xa7""al\xc4\xb1\xc5\x9f\xc4\xb1yorsa yeterli)" },
+#endif
+		{ "UIMin", "0.0" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FClassPropertyParams NewProp_EnemyClass;
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Radius;
@@ -140,6 +174,10 @@ struct Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_StrongTagPenalty;
 	static const UECodeGen_Private::FNamePropertyParams NewProp_WeakTagName;
 	static const UECodeGen_Private::FNamePropertyParams NewProp_StrongTagName;
+	static void NewProp_bDrawRawScore_SetBit(void* Obj);
+	static const UECodeGen_Private::FBoolPropertyParams NewProp_bDrawRawScore;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_DebugLabelZOffset;
+	static const UECodeGen_Private::FFloatPropertyParams NewProp_DebugDuration;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -154,6 +192,13 @@ const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UEnvQueryTest_M
 const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_StrongTagPenalty = { "StrongTagPenalty", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnvQueryTest_ManualScore, StrongTagPenalty), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_StrongTagPenalty_MetaData), NewProp_StrongTagPenalty_MetaData) };
 const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_WeakTagName = { "WeakTagName", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnvQueryTest_ManualScore, WeakTagName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_WeakTagName_MetaData), NewProp_WeakTagName_MetaData) };
 const UECodeGen_Private::FNamePropertyParams Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_StrongTagName = { "StrongTagName", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnvQueryTest_ManualScore, StrongTagName), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_StrongTagName_MetaData), NewProp_StrongTagName_MetaData) };
+void Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_bDrawRawScore_SetBit(void* Obj)
+{
+	((UEnvQueryTest_ManualScore*)Obj)->bDrawRawScore = 1;
+}
+const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_bDrawRawScore = { "bDrawRawScore", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UEnvQueryTest_ManualScore), &Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_bDrawRawScore_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_bDrawRawScore_MetaData), NewProp_bDrawRawScore_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_DebugLabelZOffset = { "DebugLabelZOffset", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnvQueryTest_ManualScore, DebugLabelZOffset), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DebugLabelZOffset_MetaData), NewProp_DebugLabelZOffset_MetaData) };
+const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_DebugDuration = { "DebugDuration", nullptr, (EPropertyFlags)0x0020080000010001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UEnvQueryTest_ManualScore, DebugDuration), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DebugDuration_MetaData), NewProp_DebugDuration_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_EnemyClass,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_Radius,
@@ -162,6 +207,9 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UEnvQuery
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_StrongTagPenalty,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_WeakTagName,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_StrongTagName,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_bDrawRawScore,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_DebugLabelZOffset,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::NewProp_DebugDuration,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics::DependentSingletons[])() = {
@@ -200,10 +248,10 @@ UEnvQueryTest_ManualScore::~UEnvQueryTest_ManualScore() {}
 struct Z_CompiledInDeferFile_FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h__Script_GraduationProject_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UEnvQueryTest_ManualScore, UEnvQueryTest_ManualScore::StaticClass, TEXT("UEnvQueryTest_ManualScore"), &Z_Registration_Info_UClass_UEnvQueryTest_ManualScore, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEnvQueryTest_ManualScore), 7862042U) },
+		{ Z_Construct_UClass_UEnvQueryTest_ManualScore, UEnvQueryTest_ManualScore::StaticClass, TEXT("UEnvQueryTest_ManualScore"), &Z_Registration_Info_UClass_UEnvQueryTest_ManualScore, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEnvQueryTest_ManualScore), 1027174914U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h__Script_GraduationProject_2496234114(TEXT("/Script/GraduationProject"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h__Script_GraduationProject_2012029692(TEXT("/Script/GraduationProject"),
 	Z_CompiledInDeferFile_FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h__Script_GraduationProject_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h__Script_GraduationProject_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

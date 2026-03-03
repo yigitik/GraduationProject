@@ -43,4 +43,18 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, Category="ManualScore")
 	FName StrongTagName = TEXT("Strong");
+
+	// --------------------------
+	// DEBUG: RawScore'u noktaların üzerinde yazdır
+	// --------------------------
+	UPROPERTY(EditDefaultsOnly, Category="ManualScore|Debug")
+	bool bDrawRawScore = true;
+
+	// Yazıyı noktanın üstünde biraz yükseltmek için
+	UPROPERTY(EditDefaultsOnly, Category="ManualScore|Debug", meta=(ClampMin="0.0", UIMin="0.0"))
+	float DebugLabelZOffset = 30.0f;
+
+	// 0 = sadece o frame (query sürekli çalışıyorsa yeterli)
+	UPROPERTY(EditDefaultsOnly, Category="ManualScore|Debug", meta=(ClampMin="0.0", UIMin="0.0"))
+	float DebugDuration = 0.0f;
 };

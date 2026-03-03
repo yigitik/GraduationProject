@@ -2,14 +2,15 @@
 
 #include "EnvironmentQuery/EnvQueryTypes.h"
 #include "EnvironmentQuery/Items/EnvQueryItemType_Point.h"
-#include "EngineUtils.h" // TActorIterator
+#include "EngineUtils.h"        // TActorIterator
+#include "DrawDebugHelpers.h"   // DrawDebugString
 
 UEnvQueryTest_ManualScore::UEnvQueryTest_ManualScore()
 {
 	ValidItemType = UEnvQueryItemType_Point::StaticClass();
 
 	TestPurpose = EEnvTestPurpose::Score;
-	FilterType  = EEnvTestFilterType::Maximum;
+	FilterType = EEnvTestFilterType::Maximum;
 
 	Cost = EEnvTestCost::Low;
 }
@@ -39,10 +40,12 @@ void UEnvQueryTest_ManualScore::RunTest(FEnvQueryInstance& QueryInstance) const
 		for (TActorIterator<AActor> ItActor(World, EnemyClass); ItActor; ++ItActor)
 		{
 			AActor* A = *ItActor;
+
 			FTaggedActorInfo Info;
 			Info.Location = A->GetActorLocation();
 			Info.bWeak = (WeakTagName != NAME_None) && A->ActorHasTag(WeakTagName);
 			Info.bStrong = (StrongTagName != NAME_None) && A->ActorHasTag(StrongTagName);
+
 			Enemies.Add(Info);
 		}
 	}
@@ -73,7 +76,7 @@ void UEnvQueryTest_ManualScore::RunTest(FEnvQueryInstance& QueryInstance) const
 				bNearWeak |= Enemy.bWeak;
 				bNearStrong |= Enemy.bStrong;
 
-				// Eğer ikisi de bulunmuşsa daha fazla aramaya gerek yok
+				// ikisi de bulunduysa hızlı çık
 				if (bNearWeak && bNearStrong)
 				{
 					break;
@@ -98,7 +101,19 @@ void UEnvQueryTest_ManualScore::RunTest(FEnvQueryInstance& QueryInstance) const
 
 		RawScore = FMath::Clamp(RawScore, 0.0f, 1.0f);
 
+		// EQS scoring (engine normalize edebilir; bu normal)
 		It.SetScore(TestPurpose, FilterType, RawScore, 0.0f, 1.0f);
+
+		// DEBUG: senin RawScore'unu doğrudan noktada göster
+		// Not: QueryInstance.bStoreDebugInfo genelde EQS debug açıksa true olur.
+		if (bDrawRawScore && QueryInstance.bStoreDebugInfo)
+		{
+			const FVector TextLoc = ItemLoc + FVector(0.0f, 0.0f, DebugLabelZOffset);
+			const FString Txt = FString::Printf(TEXT("raw=%.2f"), RawScore);
+
+			// bDrawShadow=true yazıyı okunur yapar
+			DrawDebugString(World, TextLoc, Txt, nullptr, FColor::White, DebugDuration, true);
+		}
 	}
 }
 
@@ -109,5 +124,5 @@ FText UEnvQueryTest_ManualScore::GetDescriptionTitle() const
 
 FText UEnvQueryTest_ManualScore::GetDescriptionDetails() const
 {
-	return FText::FromString(TEXT("Default score = 0. Adds proximity bonus if EnemyClass is within XY radius. Weak tag adds +, Strong tag subtracts -."));
+	return FText::FromString(TEXT("Default score = 0. Adds proximity bonus if EnemyClass is within XY radius. Weak adds +, Strong subtracts -. Draws raw score on points for debug."));
 }
