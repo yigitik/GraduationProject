@@ -1,22 +1,80 @@
-[0223/140359.022:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
-[0223/140755.050:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+[0311/143950.187:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
 C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
 
-[0223/140755.130:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+[0311/143950.286:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
 C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
 C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
 C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
 
-[0223/140757.205:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+[0311/143950.497:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
 C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
 
-[0223/140757.211:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+[0311/143950.657:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.657:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.657:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.657:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.657:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.657:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.657:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.657:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.657:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.662:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.662:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.662:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.662:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.662:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.662:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.662:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.662:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/143950.662:ERROR:gl_utils.cc(314)] [.WebGL-00000699A5A51480] GL_INVALID_OPERATION: Two textures of different types use the same sampler location.
+[0311/144052.468:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
+[0311/151415.168:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[0311/151415.238:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[0311/151418.828:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
 C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
 
-[0223/140757.215:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+[0311/151418.894:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(381,10-38): warning X4008: floating point division by zero
+C:\fakepath(381,10-38): warning X4008: floating point division by zero
+
+[0311/151424.572:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[0311/151424.654:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[0311/151427.412:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
 C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
 
-[0223/140757.282:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+[0311/151641.552:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(102,1-6): warning X4000: use of potentially uninitialized variable (dyn_index_vec4_float4)
+
+[0311/151641.634:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(135,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(137,1): warning X4000: use of potentially uninitialized variable (f_i)
+C:\fakepath(173,1): warning X4000: use of potentially uninitialized variable (f_u)
+
+[0311/151642.809:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[0311/151642.815:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[0311/151642.822:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[0311/151642.824:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
+C:\fakepath(165,1): warning X4000: use of potentially uninitialized variable (f_renderMipMapLevel)
+
+[0311/151642.892:WARNING:angle_platform_impl.cc(48)] HLSLCompiler.cpp:257 (compileToBinary): 
 C:\fakepath(381,10-38): warning X4008: floating point division by zero
 C:\fakepath(381,10-38): warning X4008: floating point division by zero
 
