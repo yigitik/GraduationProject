@@ -7141,3 +7141,720 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.03.11-14.14.49:727][367]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2457.762695
 [2026.03.11-14.14.49:919][390]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.03.11-14.14.49:919][391]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2457.945801, Update Interval: 333.013092
+[2026.03.11-14.21.08:219][836]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2836.282959
+[2026.03.11-14.21.09:220][839]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.11-14.21.09:220][839]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2836.949707, Update Interval: 357.648865
+[2026.03.11-14.27.44:251][ 24]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3232.317871
+[2026.03.11-14.27.45:252][ 27]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.11-14.27.45:252][ 27]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3232.986084, Update Interval: 303.911255
+[2026.03.11-14.33.09:346][270]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.11-14.33.09:356][270]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.11-14.33.09:356][270]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.03.11-14.33.09:356][270]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 630 us (total: 4.853 ms)
+[2026.03.11-14.33.09:362][270]LogPlayLevel: [PlayLevel] Compiling WBP_IngameUI before play...
+[2026.03.11-14.33.09:449][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.03.11-14.33.09:453][270]LogPlayLevel: PlayLevel: Blueprint regeneration took 97 ms (1 blueprints)
+[2026.03.11-14.33.09:456][270]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.33.09:462][270]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.11-14.33.09:463][270]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 981 us (total: 7.994 ms)
+[2026.03.11-14.33.09:463][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006641s)
+[2026.03.11-14.33.09:463][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Lvl_TopDown.Lvl_TopDown to /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.006678s)
+[2026.03.11-14.33.09:479][270]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2026.03.11-14.33.09:480][270]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.03.11-14.33.09:482][270]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.11-14.33.09:482][270]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.11-14.33.09:482][270]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.11-14.33.09:482][270]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.11-14.33.09:483][270]LogWorldPartition: Display: WorldPartition initialize took 1.320 ms (total: 698.943 ms)
+[2026.03.11-14.33.09:483][270]LogPlayLevel: PIE: World Init took: (0.002760s)
+[2026.03.11-14.33.09:483][270]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.03.11-14.33.09:483][270]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.11-14.33.09:483][270]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.11-14.33.09:483][270]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.11-14.33.09:483][270]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.11-14.33.09:483][270]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.11-14.33.09:483][270]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.11-14.33.09:483][270]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.11-14.33.09:483][270]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.11-14.33.09:483][270]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.11-14.33.09:483][270]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.11-14.33.09:483][270]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.11-14.33.09:486][270]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.11-14.33.09:502][270]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.03.11-14.33.09:504][270]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.11-14.33.09:504][270]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.11-14.33.09:504][270]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.11-14.33.09:504][270]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.03.11-14.33.09:504][270]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=9
+[2026.03.11-14.33.09:506][270]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.03.11-14.33.09:506][270]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.03.11-14.33.09:506][270]LogInit: FAudioDevice initialized with ID 9.
+[2026.03.11-14.33.09:506][270]LogAudio: Display: Audio Device (ID: 9) registered with world 'Lvl_TopDown'.
+[2026.03.11-14.33.09:506][270]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.03.11-14.33.09:509][270]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.03.11-14.33.09:509][270]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly1_C_UAID_345A60BD7450E1A602_2048682397)
+[2026.03.11-14.33.09:509][270]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly2_C_UAID_345A60BD745031A702_2084132473)
+[2026.03.11-14.33.09:509][270]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_UAID_345A60BD7450D5A602_2123012284)
+[2026.03.11-14.33.09:511][270]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2026.03.11-17.33.09
+[2026.03.11-14.33.09:511][270]LogWorld: Bringing up level for play took: 0.002166
+[2026.03.11-14.33.09:512][270]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2026.03.11-14.33.09:516][270]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally1_C_0)
+[2026.03.11-14.33.09:516][270]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally2_C_0)
+[2026.03.11-14.33.09:516][270]PIE: Server logged in
+[2026.03.11-14.33.09:518][270]PIE: Play in editor total start time 0,162 seconds.
+[2026.03.11-14.33.09:560][271]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.03.11-14.33.09:586][272]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_0)
+[2026.03.11-14.33.09:586][272]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_0)
+[2026.03.11-14.33.13:805][738]LogBlueprintUserMessages: Warning: Time Dilation must be between 0.000100 and 20.000000.  Clamped value to that range.
+[2026.03.11-14.33.15:176][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.33.15:176][896]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.33.15:176][896]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.03.11-14.33.15:176][896]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-14.33.15:178][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.33.15:178][896]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.03.11-14.33.15:179][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.11-14.33.15:182][896]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.33.15:201][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.33.15:201][896]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.03.11-14.33.15:201][896]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2026.03.11-14.33.15:202][896]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2026.03.11-14.33.15:209][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.03.11-14.33.15:299][897]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2026.03.11-14.33.34:151][792]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3582.218994
+[2026.03.11-14.33.34:336][812]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.11-14.33.34:336][813]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3582.394531, Update Interval: 328.481079
+[2026.03.11-14.33.46:517][130]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.11-14.33.46:528][130]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.11-14.33.46:528][130]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.03.11-14.33.46:529][130]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 578 us (total: 5.431 ms)
+[2026.03.11-14.33.46:533][130]LogPlayLevel: [PlayLevel] Compiling WBP_IngameUI before play...
+[2026.03.11-14.33.46:599][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.03.11-14.33.46:602][130]LogPlayLevel: PlayLevel: Blueprint regeneration took 73 ms (1 blueprints)
+[2026.03.11-14.33.46:636][130]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.33.46:642][130]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.11-14.33.46:642][130]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 971 us (total: 8.965 ms)
+[2026.03.11-14.33.46:642][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006536s)
+[2026.03.11-14.33.46:642][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Lvl_TopDown.Lvl_TopDown to /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.006571s)
+[2026.03.11-14.33.46:660][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2026.03.11-14.33.46:660][130]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.03.11-14.33.46:662][130]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.11-14.33.46:662][130]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.11-14.33.46:662][130]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.11-14.33.46:662][130]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.11-14.33.46:663][130]LogWorldPartition: Display: WorldPartition initialize took 1.344 ms (total: 700.288 ms)
+[2026.03.11-14.33.46:663][130]LogPlayLevel: PIE: World Init took: (0.002715s)
+[2026.03.11-14.33.46:663][130]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.03.11-14.33.46:663][130]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.11-14.33.46:663][130]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.11-14.33.46:663][130]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.11-14.33.46:663][130]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.11-14.33.46:663][130]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.11-14.33.46:663][130]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.11-14.33.46:663][130]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.11-14.33.46:663][130]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.11-14.33.46:663][130]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.11-14.33.46:663][130]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.11-14.33.46:663][130]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.11-14.33.46:666][130]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.11-14.33.46:682][130]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.03.11-14.33.46:682][130]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.11-14.33.46:682][130]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.11-14.33.46:682][130]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.11-14.33.46:683][130]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.03.11-14.33.46:683][130]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=10
+[2026.03.11-14.33.46:685][130]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.03.11-14.33.46:685][130]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.03.11-14.33.46:685][130]LogInit: FAudioDevice initialized with ID 10.
+[2026.03.11-14.33.46:685][130]LogAudio: Display: Audio Device (ID: 10) registered with world 'Lvl_TopDown'.
+[2026.03.11-14.33.46:685][130]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.03.11-14.33.46:688][130]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.03.11-14.33.46:690][130]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly1_C_UAID_345A60BD7450E1A602_2048682397)
+[2026.03.11-14.33.46:690][130]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly2_C_UAID_345A60BD745031A702_2084132473)
+[2026.03.11-14.33.46:690][130]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_UAID_345A60BD7450D5A602_2123012284)
+[2026.03.11-14.33.46:690][130]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2026.03.11-17.33.46
+[2026.03.11-14.33.46:690][130]LogWorld: Bringing up level for play took: 0.002154
+[2026.03.11-14.33.46:692][130]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2026.03.11-14.33.46:695][130]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally1_C_0)
+[2026.03.11-14.33.46:695][130]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally2_C_0)
+[2026.03.11-14.33.46:696][130]PIE: Server logged in
+[2026.03.11-14.33.46:698][130]PIE: Play in editor total start time 0,169 seconds.
+[2026.03.11-14.33.46:727][131]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_0)
+[2026.03.11-14.33.46:729][131]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_0)
+[2026.03.11-14.33.46:730][131]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.03.11-14.33.52:829][803]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_1.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:00FF
+[2026.03.11-14.33.52:829][803]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.33.52:829][803]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_1.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:02C4
+[2026.03.11-14.33.52:829][803]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Set Velocity Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.33.52:829][803]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_1.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:047E
+[2026.03.11-14.33.52:829][803]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Set World Rotation Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.33.54:206][950]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_1)
+[2026.03.11-14.33.54:207][950]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_1)
+[2026.03.11-14.33.54:596][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.33.54:596][987]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.33.54:596][987]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.03.11-14.33.54:596][987]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-14.33.54:597][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.33.54:597][987]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.03.11-14.33.54:597][987]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.11-14.33.54:603][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.33.54:619][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.33.54:619][987]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.03.11-14.33.54:619][987]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2026.03.11-14.33.54:621][987]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2026.03.11-14.33.54:652][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.03.11-14.33.54:793][988]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2026.03.11-14.33.55:914][ 92]LogSlate: Window 'Message Log' being destroyed
+[2026.03.11-14.33.55:942][ 92]LogSlate: Window 'Message Log' being destroyed
+[2026.03.11-14.34.43:176][983]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.03.11-14.34.43:625][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.11-14.34.43:667][ 21]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Ingame/WBP_IngameUI] ([2] browsable assets)...
+[2026.03.11-14.34.43:670][ 21]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Ingame/WBP_IngameUI.WBP_IngameUI]
+[2026.03.11-14.34.43:670][ 21]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Ingame/WBP_IngameUI]
+[2026.03.11-14.34.43:670][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Ingame/WBP_IngameUI" FILE="C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Blueprints/UI/Ingame/WBP_IngameUI.uasset" SILENT=true
+[2026.03.11-14.34.43:699][ 21]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Ingame/WBP_IngameUI
+[2026.03.11-14.34.43:700][ 21]LogSavePackage: Moving 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/WBP_IngameUI0066C07049F106B0D2BEB88CA2DE84CE.tmp' to 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Blueprints/UI/Ingame/WBP_IngameUI.uasset'
+[2026.03.11-14.34.43:707][ 21]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.203 ms (total: 263.647 ms)
+[2026.03.11-14.34.43:742][ 21]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.11-14.34.43:742][ 21]LogContentValidation: Enabled validators:
+[2026.03.11-14.34.43:742][ 21]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.11-14.34.43:742][ 21]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.11-14.34.43:742][ 21]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.11-14.34.43:742][ 21]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.11-14.34.43:742][ 21]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.11-14.34.43:742][ 21]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.11-14.34.43:742][ 21]AssetCheck: /Game/Blueprints/UI/Ingame/WBP_IngameUI Validating asset
+[2026.03.11-14.34.45:592][230]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.11-14.34.45:604][230]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.11-14.34.45:604][230]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.03.11-14.34.45:604][230]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 583 us (total: 6.015 ms)
+[2026.03.11-14.34.45:604][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.11-14.34.45:626][230]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.34.45:632][230]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.11-14.34.45:632][230]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 1.030 ms (total: 9.996 ms)
+[2026.03.11-14.34.45:632][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006672s)
+[2026.03.11-14.34.45:632][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Lvl_TopDown.Lvl_TopDown to /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.006702s)
+[2026.03.11-14.34.45:652][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.03.11-14.34.45:657][230]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.03.11-14.34.45:658][230]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.11-14.34.45:658][230]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.11-14.34.45:658][230]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.11-14.34.45:658][230]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.11-14.34.45:660][230]LogWorldPartition: Display: WorldPartition initialize took 1.340 ms (total: 701.628 ms)
+[2026.03.11-14.34.45:660][230]LogPlayLevel: PIE: World Init took: (0.002695s)
+[2026.03.11-14.34.45:660][230]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.03.11-14.34.45:660][230]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.11-14.34.45:660][230]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.11-14.34.45:660][230]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.11-14.34.45:660][230]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.11-14.34.45:660][230]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.11-14.34.45:660][230]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.11-14.34.45:660][230]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.11-14.34.45:660][230]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.11-14.34.45:660][230]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.11-14.34.45:660][230]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.11-14.34.45:660][230]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.11-14.34.45:663][230]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.11-14.34.45:679][230]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.03.11-14.34.45:679][230]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.11-14.34.45:679][230]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.11-14.34.45:679][230]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.11-14.34.45:679][230]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.03.11-14.34.45:679][230]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=11
+[2026.03.11-14.34.45:682][230]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.03.11-14.34.45:682][230]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.03.11-14.34.45:682][230]LogInit: FAudioDevice initialized with ID 11.
+[2026.03.11-14.34.45:682][230]LogAudio: Display: Audio Device (ID: 11) registered with world 'Lvl_TopDown'.
+[2026.03.11-14.34.45:682][230]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.03.11-14.34.45:684][230]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.03.11-14.34.45:685][230]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly1_C_UAID_345A60BD7450E1A602_2048682397)
+[2026.03.11-14.34.45:685][230]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly2_C_UAID_345A60BD745031A702_2084132473)
+[2026.03.11-14.34.45:685][230]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_UAID_345A60BD7450D5A602_2123012284)
+[2026.03.11-14.34.45:687][230]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2026.03.11-17.34.45
+[2026.03.11-14.34.45:687][230]LogWorld: Bringing up level for play took: 0.002008
+[2026.03.11-14.34.45:688][230]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2026.03.11-14.34.45:692][230]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally1_C_0)
+[2026.03.11-14.34.45:692][230]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally2_C_0)
+[2026.03.11-14.34.45:692][230]PIE: Server logged in
+[2026.03.11-14.34.45:693][230]PIE: Play in editor total start time 0,09 seconds.
+[2026.03.11-14.34.45:727][231]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.03.11-14.34.45:795][236]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_0)
+[2026.03.11-14.34.45:796][236]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_0)
+[2026.03.11-14.34.59:056][723]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_1)
+[2026.03.11-14.34.59:057][723]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_1)
+[2026.03.11-14.35.00:287][860]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_1.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:00FF
+[2026.03.11-14.35.00:287][860]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.35.00:287][860]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_1.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:02C4
+[2026.03.11-14.35.00:289][860]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Set Velocity Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.35.00:289][860]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_1.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:047E
+[2026.03.11-14.35.00:289][860]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Set World Rotation Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.35.01:426][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.35.01:426][976]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.35.01:426][976]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.03.11-14.35.01:426][976]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-14.35.01:427][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.35.01:427][976]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.03.11-14.35.01:427][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.11-14.35.01:432][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.35.01:450][976]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.11-14.35.01:450][976]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.03.11-14.35.01:450][976]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2026.03.11-14.35.01:453][976]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2026.03.11-14.35.01:457][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.35.01:500][976]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.03.11-14.35.01:640][977]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2026.03.11-14.35.02:884][ 97]LogSlate: Window 'Message Log' being destroyed
+[2026.03.11-14.35.02:912][ 97]LogSlate: Window 'Message Log' being destroyed
+[2026.03.11-14.35.38:565][653]LogDerivedDataCache: C:/Users/Yigit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.03.11-14.35.53:867][298]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.03.11-14.35.54:942][403]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.11-14.35.54:976][403]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Ingame/WBP_IngameUI] ([2] browsable assets)...
+[2026.03.11-14.35.54:978][403]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Ingame/WBP_IngameUI.WBP_IngameUI]
+[2026.03.11-14.35.54:978][403]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Ingame/WBP_IngameUI]
+[2026.03.11-14.35.54:978][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Ingame/WBP_IngameUI" FILE="C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Blueprints/UI/Ingame/WBP_IngameUI.uasset" SILENT=true
+[2026.03.11-14.35.55:008][403]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Ingame/WBP_IngameUI
+[2026.03.11-14.35.55:008][403]LogSavePackage: Moving 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/WBP_IngameUI97CB36934F62E27272C61FA550F0A7F5.tmp' to 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Blueprints/UI/Ingame/WBP_IngameUI.uasset'
+[2026.03.11-14.35.55:017][403]LogFileHelpers: InternalPromptForCheckoutAndSave took 75.079 ms (total: 338.726 ms)
+[2026.03.11-14.35.55:046][403]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.11-14.35.55:046][403]LogContentValidation: Enabled validators:
+[2026.03.11-14.35.55:046][403]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.11-14.35.55:046][403]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.11-14.35.55:046][403]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.11-14.35.55:046][403]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.11-14.35.55:046][403]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.11-14.35.55:046][403]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.11-14.35.55:046][403]AssetCheck: /Game/Blueprints/UI/Ingame/WBP_IngameUI Validating asset
+[2026.03.11-14.35.57:242][647]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.11-14.35.57:253][647]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.11-14.35.57:253][647]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.03.11-14.35.57:254][647]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 717 us (total: 6.732 ms)
+[2026.03.11-14.35.57:254][647]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.11-14.35.57:254][647]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.35.57:260][647]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.11-14.35.57:260][647]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 980 us (total: 10.977 ms)
+[2026.03.11-14.35.57:260][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006505s)
+[2026.03.11-14.35.57:260][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Lvl_TopDown.Lvl_TopDown to /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.006530s)
+[2026.03.11-14.35.57:280][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.03.11-14.35.57:285][647]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.03.11-14.35.57:287][647]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.11-14.35.57:287][647]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.11-14.35.57:287][647]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.11-14.35.57:287][647]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.11-14.35.57:288][647]LogWorldPartition: Display: WorldPartition initialize took 1.385 ms (total: 703.014 ms)
+[2026.03.11-14.35.57:288][647]LogPlayLevel: PIE: World Init took: (0.002796s)
+[2026.03.11-14.35.57:288][647]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2026.03.11-14.35.57:288][647]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.11-14.35.57:288][647]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.11-14.35.57:288][647]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.11-14.35.57:288][647]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.11-14.35.57:288][647]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.11-14.35.57:288][647]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.11-14.35.57:288][647]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.11-14.35.57:288][647]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.11-14.35.57:288][647]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.11-14.35.57:288][647]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.11-14.35.57:288][647]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.11-14.35.57:291][647]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.11-14.35.57:307][647]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.03.11-14.35.57:307][647]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.11-14.35.57:307][647]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.11-14.35.57:307][647]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.11-14.35.57:307][647]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2026.03.11-14.35.57:307][647]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=12
+[2026.03.11-14.35.57:310][647]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2026.03.11-14.35.57:310][647]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2026.03.11-14.35.57:310][647]LogInit: FAudioDevice initialized with ID 12.
+[2026.03.11-14.35.57:310][647]LogAudio: Display: Audio Device (ID: 12) registered with world 'Lvl_TopDown'.
+[2026.03.11-14.35.57:310][647]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2026.03.11-14.35.57:314][647]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.03.11-14.35.57:314][647]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly1_C_UAID_345A60BD7450E1A602_2048682397)
+[2026.03.11-14.35.57:314][647]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly2_C_UAID_345A60BD745031A702_2084132473)
+[2026.03.11-14.35.57:314][647]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_UAID_345A60BD7450D5A602_2123012284)
+[2026.03.11-14.35.57:315][647]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2026.03.11-17.35.57
+[2026.03.11-14.35.57:316][647]LogWorld: Bringing up level for play took: 0.002111
+[2026.03.11-14.35.57:317][647]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2026.03.11-14.35.57:320][647]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally1_C_0)
+[2026.03.11-14.35.57:320][647]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally2_C_0)
+[2026.03.11-14.35.57:321][647]PIE: Server logged in
+[2026.03.11-14.35.57:321][647]PIE: Play in editor total start time 0,07 seconds.
+[2026.03.11-14.35.57:356][648]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.03.11-14.35.57:436][654]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_0)
+[2026.03.11-14.35.57:437][654]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_0)
+[2026.03.11-14.36.11:822][282]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_1)
+[2026.03.11-14.36.11:822][282]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_1)
+[2026.03.11-14.36.13:578][478]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_3.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:00FF
+[2026.03.11-14.36.13:578][478]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.36.13:578][478]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_3.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:02C4
+[2026.03.11-14.36.13:578][478]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Set Velocity Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.36.13:578][478]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_3.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:047E
+[2026.03.11-14.36.13:578][478]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Set World Rotation Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.36.13:578][478]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_4.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:00FF
+[2026.03.11-14.36.13:578][478]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.36.13:578][478]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_4.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:02C4
+[2026.03.11-14.36.13:578][478]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Set Velocity Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.36.13:578][478]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_4.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:047E
+[2026.03.11-14.36.13:578][478]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Set World Rotation Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.36.15:106][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.36.15:106][635]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.36.15:106][635]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.03.11-14.36.15:106][635]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-14.36.15:107][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.36.15:107][635]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.03.11-14.36.15:107][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.11-14.36.15:113][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.36.15:128][635]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.11-14.36.15:129][635]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2026.03.11-14.36.15:129][635]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2026.03.11-14.36.15:131][635]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2026.03.11-14.36.15:135][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.36.15:184][635]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.03.11-14.36.15:330][636]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2026.03.11-14.36.17:834][898]LogSlate: Window 'Message Log' being destroyed
+[2026.03.11-14.36.17:839][898]LogSlate: Window 'Message Log' being destroyed
+[2026.03.11-14.37.31:504][415]LogEditorTransaction: Undo Edit Text
+[2026.03.11-14.37.53:171][630]LogEditorTransaction: Undo Edit Text
+[2026.03.11-14.38.16:899][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.03.11-14.38.17:428][161]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.11-14.38.17:462][161]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Ingame/WBP_IngameUI] ([2] browsable assets)...
+[2026.03.11-14.38.17:464][161]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Ingame/WBP_IngameUI.WBP_IngameUI]
+[2026.03.11-14.38.17:464][161]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Ingame/WBP_IngameUI]
+[2026.03.11-14.38.17:464][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Ingame/WBP_IngameUI" FILE="C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Blueprints/UI/Ingame/WBP_IngameUI.uasset" SILENT=true
+[2026.03.11-14.38.17:495][161]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Ingame/WBP_IngameUI
+[2026.03.11-14.38.17:495][161]LogSavePackage: Moving 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/WBP_IngameUIA45232AE4BE8FCBA31B5ECA73EB96A96.tmp' to 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Blueprints/UI/Ingame/WBP_IngameUI.uasset'
+[2026.03.11-14.38.17:503][161]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.621 ms (total: 413.347 ms)
+[2026.03.11-14.38.17:529][161]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.11-14.38.17:529][161]LogContentValidation: Enabled validators:
+[2026.03.11-14.38.17:529][161]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.11-14.38.17:529][161]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.11-14.38.17:529][161]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.11-14.38.17:529][161]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.11-14.38.17:529][161]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.11-14.38.17:529][161]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.11-14.38.17:529][161]AssetCheck: /Game/Blueprints/UI/Ingame/WBP_IngameUI Validating asset
+[2026.03.11-14.38.19:473][377]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.11-14.38.19:482][377]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.11-14.38.19:482][377]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.03.11-14.38.19:483][377]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 558 us (total: 7.290 ms)
+[2026.03.11-14.38.19:483][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.11-14.38.19:483][377]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.38.19:489][377]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.11-14.38.19:490][377]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 989 us (total: 11.966 ms)
+[2026.03.11-14.38.19:490][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006404s)
+[2026.03.11-14.38.19:490][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Lvl_TopDown.Lvl_TopDown to /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.006429s)
+[2026.03.11-14.38.19:509][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2026.03.11-14.38.19:514][377]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.03.11-14.38.19:515][377]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.11-14.38.19:515][377]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.11-14.38.19:515][377]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.11-14.38.19:515][377]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.11-14.38.19:516][377]LogWorldPartition: Display: WorldPartition initialize took 1.252 ms (total: 704.267 ms)
+[2026.03.11-14.38.19:516][377]LogPlayLevel: PIE: World Init took: (0.002575s)
+[2026.03.11-14.38.19:516][377]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2026.03.11-14.38.19:516][377]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.11-14.38.19:516][377]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.11-14.38.19:516][377]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.11-14.38.19:516][377]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.11-14.38.19:516][377]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.11-14.38.19:516][377]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.11-14.38.19:516][377]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.11-14.38.19:516][377]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.11-14.38.19:516][377]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.11-14.38.19:516][377]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.11-14.38.19:516][377]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.11-14.38.19:518][377]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.11-14.38.19:535][377]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.03.11-14.38.19:535][377]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.11-14.38.19:535][377]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.11-14.38.19:535][377]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.11-14.38.19:535][377]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2026.03.11-14.38.19:535][377]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=13
+[2026.03.11-14.38.19:538][377]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2026.03.11-14.38.19:538][377]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2026.03.11-14.38.19:538][377]LogInit: FAudioDevice initialized with ID 13.
+[2026.03.11-14.38.19:538][377]LogAudio: Display: Audio Device (ID: 13) registered with world 'Lvl_TopDown'.
+[2026.03.11-14.38.19:538][377]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2026.03.11-14.38.19:541][377]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.03.11-14.38.19:542][377]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly1_C_UAID_345A60BD7450E1A602_2048682397)
+[2026.03.11-14.38.19:542][377]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly2_C_UAID_345A60BD745031A702_2084132473)
+[2026.03.11-14.38.19:542][377]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_UAID_345A60BD7450D5A602_2123012284)
+[2026.03.11-14.38.19:542][377]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2026.03.11-17.38.19
+[2026.03.11-14.38.19:544][377]LogWorld: Bringing up level for play took: 0.002051
+[2026.03.11-14.38.19:545][377]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2026.03.11-14.38.19:548][377]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally1_C_0)
+[2026.03.11-14.38.19:549][377]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally2_C_0)
+[2026.03.11-14.38.19:549][377]PIE: Server logged in
+[2026.03.11-14.38.19:551][377]PIE: Play in editor total start time 0,068 seconds.
+[2026.03.11-14.38.19:591][378]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.03.11-14.38.19:671][384]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_0)
+[2026.03.11-14.38.19:673][384]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_1)
+[2026.03.11-14.38.32:230][825]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_0)
+[2026.03.11-14.38.32:230][825]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_2)
+[2026.03.11-14.38.32:232][825]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_3)
+[2026.03.11-14.38.36:695][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.38.36:695][311]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.38.36:695][311]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.03.11-14.38.36:695][311]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-14.38.36:696][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.38.36:696][311]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.03.11-14.38.36:696][311]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.11-14.38.36:702][311]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.38.36:719][311]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.11-14.38.36:719][311]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2026.03.11-14.38.36:719][311]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2026.03.11-14.38.36:722][311]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2026.03.11-14.38.36:726][311]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.38.36:777][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.03.11-14.38.36:866][312]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2026.03.11-14.39.48:335][946]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3956.417969
+[2026.03.11-14.39.48:546][969]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.03.11-14.39.48:546][970]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3956.619385, Update Interval: 331.322968
+[2026.03.11-14.41.27:388][563]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.03.11-14.41.28:324][648]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.11-14.41.28:353][648]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Ingame/WBP_IngameUI] ([2] browsable assets)...
+[2026.03.11-14.41.28:356][648]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Ingame/WBP_IngameUI.WBP_IngameUI]
+[2026.03.11-14.41.28:356][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Ingame/WBP_IngameUI]
+[2026.03.11-14.41.28:356][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Ingame/WBP_IngameUI" FILE="C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Blueprints/UI/Ingame/WBP_IngameUI.uasset" SILENT=true
+[2026.03.11-14.41.28:387][648]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Ingame/WBP_IngameUI
+[2026.03.11-14.41.28:387][648]LogSavePackage: Moving 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/WBP_IngameUID3654B9042196E580E2772829BE0968E.tmp' to 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Blueprints/UI/Ingame/WBP_IngameUI.uasset'
+[2026.03.11-14.41.28:394][648]LogFileHelpers: InternalPromptForCheckoutAndSave took 70.974 ms (total: 484.322 ms)
+[2026.03.11-14.41.28:420][648]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.11-14.41.28:420][648]LogContentValidation: Enabled validators:
+[2026.03.11-14.41.28:420][648]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.11-14.41.28:420][648]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.11-14.41.28:420][648]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.11-14.41.28:420][648]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.11-14.41.28:420][648]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.11-14.41.28:420][648]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.11-14.41.28:420][648]AssetCheck: /Game/Blueprints/UI/Ingame/WBP_IngameUI Validating asset
+[2026.03.11-14.41.30:707][856]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.11-14.41.30:716][856]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.11-14.41.30:716][856]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.03.11-14.41.30:718][856]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 549 us (total: 7.840 ms)
+[2026.03.11-14.41.30:718][856]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.11-14.41.30:718][856]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.41.30:722][856]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.11-14.41.30:724][856]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 989 us (total: 12.956 ms)
+[2026.03.11-14.41.30:724][856]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006592s)
+[2026.03.11-14.41.30:724][856]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Lvl_TopDown.Lvl_TopDown to /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.006614s)
+[2026.03.11-14.41.30:744][856]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.03.11-14.41.30:747][856]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.03.11-14.41.30:749][856]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.11-14.41.30:749][856]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.11-14.41.30:749][856]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.11-14.41.30:749][856]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.11-14.41.30:750][856]LogWorldPartition: Display: WorldPartition initialize took 1.270 ms (total: 705.537 ms)
+[2026.03.11-14.41.30:750][856]LogPlayLevel: PIE: World Init took: (0.002619s)
+[2026.03.11-14.41.30:750][856]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2026.03.11-14.41.30:750][856]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.11-14.41.30:750][856]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.11-14.41.30:750][856]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.11-14.41.30:750][856]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.11-14.41.30:750][856]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.11-14.41.30:750][856]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.11-14.41.30:750][856]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.11-14.41.30:750][856]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.11-14.41.30:750][856]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.11-14.41.30:750][856]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.11-14.41.30:750][856]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.11-14.41.30:753][856]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.11-14.41.30:770][856]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.03.11-14.41.30:770][856]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.11-14.41.30:770][856]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.11-14.41.30:770][856]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.11-14.41.30:770][856]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2026.03.11-14.41.30:770][856]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=14
+[2026.03.11-14.41.30:771][856]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2026.03.11-14.41.30:773][856]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2026.03.11-14.41.30:773][856]LogInit: FAudioDevice initialized with ID 14.
+[2026.03.11-14.41.30:773][856]LogAudio: Display: Audio Device (ID: 14) registered with world 'Lvl_TopDown'.
+[2026.03.11-14.41.30:773][856]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2026.03.11-14.41.30:776][856]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.03.11-14.41.30:777][856]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly1_C_UAID_345A60BD7450E1A602_2048682397)
+[2026.03.11-14.41.30:777][856]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly2_C_UAID_345A60BD745031A702_2084132473)
+[2026.03.11-14.41.30:777][856]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_UAID_345A60BD7450D5A602_2123012284)
+[2026.03.11-14.41.30:777][856]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2026.03.11-17.41.30
+[2026.03.11-14.41.30:777][856]LogWorld: Bringing up level for play took: 0.002179
+[2026.03.11-14.41.30:779][856]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2026.03.11-14.41.30:783][856]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally1_C_0)
+[2026.03.11-14.41.30:784][856]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally2_C_0)
+[2026.03.11-14.41.30:784][856]PIE: Server logged in
+[2026.03.11-14.41.30:786][856]PIE: Play in editor total start time 0,069 seconds.
+[2026.03.11-14.41.30:825][857]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.03.11-14.41.30:905][863]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_0)
+[2026.03.11-14.41.30:906][863]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_0)
+[2026.03.11-14.41.37:955][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.41.37:955][532]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.41.37:955][532]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.03.11-14.41.37:955][532]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-14.41.37:956][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.41.37:956][532]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.03.11-14.41.37:956][532]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.11-14.41.37:961][532]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.41.37:978][532]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.11-14.41.37:980][532]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2026.03.11-14.41.37:980][532]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=4
+[2026.03.11-14.41.37:981][532]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=2
+[2026.03.11-14.41.37:984][532]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.41.38:002][532]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2026.03.11-14.41.38:100][533]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2026.03.11-14.41.50:909][854]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.03.11-14.41.51:658][925]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.11-14.41.51:686][925]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/UI/Ingame/WBP_IngameUI] ([2] browsable assets)...
+[2026.03.11-14.41.51:689][925]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Blueprints/UI/Ingame/WBP_IngameUI.WBP_IngameUI]
+[2026.03.11-14.41.51:689][925]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/UI/Ingame/WBP_IngameUI]
+[2026.03.11-14.41.51:689][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/Ingame/WBP_IngameUI" FILE="C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Blueprints/UI/Ingame/WBP_IngameUI.uasset" SILENT=true
+[2026.03.11-14.41.51:721][925]LogSavePackage: Moving output files for package: /Game/Blueprints/UI/Ingame/WBP_IngameUI
+[2026.03.11-14.41.51:721][925]LogSavePackage: Moving 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/WBP_IngameUI4774E73A4F8C661A1C6DE2B309F632C5.tmp' to 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Blueprints/UI/Ingame/WBP_IngameUI.uasset'
+[2026.03.11-14.41.51:730][925]LogFileHelpers: InternalPromptForCheckoutAndSave took 71.619 ms (total: 555.941 ms)
+[2026.03.11-14.41.51:761][925]LogContentValidation: Display: Starting to validate 1 assets
+[2026.03.11-14.41.51:761][925]LogContentValidation: Enabled validators:
+[2026.03.11-14.41.51:761][925]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.11-14.41.51:761][925]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.11-14.41.51:761][925]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.11-14.41.51:761][925]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.11-14.41.51:761][925]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.11-14.41.51:761][925]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.11-14.41.51:761][925]AssetCheck: /Game/Blueprints/UI/Ingame/WBP_IngameUI Validating asset
+[2026.03.11-14.41.53:072][ 63]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.03.11-14.41.53:081][ 63]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.03.11-14.41.53:081][ 63]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.03.11-14.41.53:083][ 63]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 554 us (total: 8.394 ms)
+[2026.03.11-14.41.53:083][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.03.11-14.41.53:083][ 63]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.41.53:088][ 63]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.03.11-14.41.53:089][ 63]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 995 us (total: 13.952 ms)
+[2026.03.11-14.41.53:089][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006957s)
+[2026.03.11-14.41.53:089][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Lvl_TopDown.Lvl_TopDown to /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.006980s)
+[2026.03.11-14.41.53:107][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.03.11-14.41.53:115][ 63]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.03.11-14.41.53:116][ 63]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.03.11-14.41.53:116][ 63]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.03.11-14.41.53:116][ 63]LogWorldPartition: UWorldPartition::Initialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.03.11-14.41.53:116][ 63]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.03.11-14.41.53:118][ 63]LogWorldPartition: Display: WorldPartition initialize took 1.263 ms (total: 706.800 ms)
+[2026.03.11-14.41.53:118][ 63]LogPlayLevel: PIE: World Init took: (0.002562s)
+[2026.03.11-14.41.53:118][ 63]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2026.03.11-14.41.53:118][ 63]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.03.11-14.41.53:118][ 63]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.03.11-14.41.53:118][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.03.11-14.41.53:118][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.03.11-14.41.53:118][ 63]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.03.11-14.41.53:118][ 63]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.03.11-14.41.53:118][ 63]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.03.11-14.41.53:118][ 63]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.03.11-14.41.53:118][ 63]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.03.11-14.41.53:118][ 63]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.03.11-14.41.53:118][ 63]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.03.11-14.41.53:120][ 63]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.03.11-14.41.53:135][ 63]LogAudioMixer: Display: Using Audio Hardware Device SteelSeries Sonar - Gaming (SteelSeries Sonar Virtual Audio Device)
+[2026.03.11-14.41.53:135][ 63]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.03.11-14.41.53:137][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.03.11-14.41.53:137][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.03.11-14.41.53:137][ 63]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2026.03.11-14.41.53:137][ 63]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=15
+[2026.03.11-14.41.53:138][ 63]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2026.03.11-14.41.53:138][ 63]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2026.03.11-14.41.53:138][ 63]LogInit: FAudioDevice initialized with ID 15.
+[2026.03.11-14.41.53:138][ 63]LogAudio: Display: Audio Device (ID: 15) registered with world 'Lvl_TopDown'.
+[2026.03.11-14.41.53:138][ 63]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2026.03.11-14.41.53:141][ 63]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.03.11-14.41.53:143][ 63]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly1_C_UAID_345A60BD7450E1A602_2048682397)
+[2026.03.11-14.41.53:143][ 63]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_BaseAlly2_C_UAID_345A60BD745031A702_2084132473)
+[2026.03.11-14.41.53:143][ 63]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_UAID_345A60BD7450D5A602_2123012284)
+[2026.03.11-14.41.53:144][ 63]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 0) at 2026.03.11-17.41.53
+[2026.03.11-14.41.53:144][ 63]LogWorld: Bringing up level for play took: 0.001995
+[2026.03.11-14.41.53:145][ 63]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2026.03.11-14.41.53:148][ 63]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally1_C_0)
+[2026.03.11-14.41.53:148][ 63]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Ally2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Ally2_C_0)
+[2026.03.11-14.41.53:149][ 63]PIE: Server logged in
+[2026.03.11-14.41.53:151][ 63]PIE: Play in editor total start time 0,069 seconds.
+[2026.03.11-14.41.53:189][ 64]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.03.11-14.41.53:274][ 71]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_0)
+[2026.03.11-14.41.53:275][ 71]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_1)
+[2026.03.11-14.42.04:008][133]LogScript: Warning: Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass
+	BTTask_DroneMoveTo_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.AIC_EnemyBase_C_2.BTComponent.BTTask_Test_C_0
+	Function /Game/Characters/Enemies/AI/Tasks/BTTask_DroneMoveTo.BTTask_DroneMoveTo_C:ExecuteUbergraph_BTTask_DroneMoveTo:00FF
+[2026.03.11-14.42.04:008][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Branch Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.42.04:008][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Set Velocity Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.42.04:008][133]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read (real) property CallFunc_GetBlackboardValueAsActor_ReturnValue in not an UClass". Node:  Set World Rotation Graph:  EventGraph Function:  Execute Ubergraph BTTask Drone Move To Blueprint:  BTTask_DroneMoveTo
+[2026.03.11-14.42.06:644][420]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy1_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy1_C_0)
+[2026.03.11-14.42.06:645][420]LogSkinnedMeshComp: Warning: GetSocketByName(None): No SkeletalMesh for Component(CharacterMesh0) Actor(BP_Enemy2_C /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown:PersistentLevel.BP_Enemy2_C_2)
+[2026.03.11-14.42.13:235][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.42.13:235][117]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Lvl_TopDown
+[2026.03.11-14.42.13:235][117]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2026.03.11-14.42.13:236][117]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.03.11-14.42.13:236][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.42.13:236][117]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/Levels/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.03.11-14.42.13:237][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.03.11-14.42.13:242][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.03.11-14.42.13:261][117]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.03.11-14.42.13:261][117]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2026.03.11-14.42.13:261][117]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=4
+[2026.03.11-14.42.13:263][117]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15, StreamState=2
+[2026.03.11-14.42.13:267][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.03.11-14.42.13:317][117]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.03.11-14.42.13:470][118]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2026.03.11-14.42.15:182][281]LogSlate: Window 'Message Log' being destroyed
+[2026.03.11-14.42.15:189][281]LogSlate: Window 'Message Log' being destroyed
+[2026.03.11-14.42.20:705][861]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2026.03.11-14.42.21:640][861]LogSlate: Window 'Save Content' being destroyed
+[2026.03.11-14.42.21:665][861]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.03.11-14.42.21:686][861]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Images/Image1] ([1] browsable assets)...
+[2026.03.11-14.42.21:686][861]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/Image1]
+[2026.03.11-14.42.21:686][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Image1" FILE="C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Images/Image1.uasset" SILENT=true
+[2026.03.11-14.42.21:697][861]LogSavePackage: Moving output files for package: /Game/Images/Image1
+[2026.03.11-14.42.21:697][861]LogSavePackage: Moving 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/Image11FC879454BBFCD4ED5B6F1B58C9E7127.tmp' to 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Images/Image1.uasset'
+[2026.03.11-14.42.21:698][861]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Images/Image2] ([1] browsable assets)...
+[2026.03.11-14.42.21:698][861]OBJ SavePackage: Finished generating thumbnails for package [/Game/Images/Image2]
+[2026.03.11-14.42.21:698][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Images/Image2" FILE="C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Images/Image2.uasset" SILENT=true
+[2026.03.11-14.42.21:713][861]LogSavePackage: Moving output files for package: /Game/Images/Image2
+[2026.03.11-14.42.21:713][861]LogSavePackage: Moving 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/Image2987D0B8D43F724588A9590B4929DC183.tmp' to 'C:/Users/Yigit/Documents/GitHub/GraduationProject/Content/Images/Image2.uasset'
+[2026.03.11-14.42.21:724][861]LogFileHelpers: InternalPromptForCheckoutAndSave took 59.456 ms (total: 615.397 ms)
+[2026.03.11-14.42.21:757][861]LogContentValidation: Display: Starting to validate 2 assets
+[2026.03.11-14.42.21:757][861]LogContentValidation: Enabled validators:
+[2026.03.11-14.42.21:757][861]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.03.11-14.42.21:757][861]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.03.11-14.42.21:757][861]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.03.11-14.42.21:757][861]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.03.11-14.42.21:757][861]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.03.11-14.42.21:757][861]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.03.11-14.42.21:757][861]AssetCheck: /Game/Images/Image1 Validating asset
+[2026.03.11-14.42.21:757][861]AssetCheck: /Game/Images/Image2 Validating asset
+[2026.03.11-14.42.21:778][861]LogSourceControl: Display: Uncontrolled Changelist persistency file saved C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/SourceControl/UncontrolledChangelists.json
