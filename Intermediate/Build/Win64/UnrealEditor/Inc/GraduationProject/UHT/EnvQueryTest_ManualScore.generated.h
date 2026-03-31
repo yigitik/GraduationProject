@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class UEnvQueryTest_ManualScore ************************************************
 GRADUATIONPROJECT_API UClass* Z_Construct_UClass_UEnvQueryTest_ManualScore_NoRegister();
 
-#define FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h_11_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUEnvQueryTest_ManualScore(); \
 	friend struct Z_Construct_UClass_UEnvQueryTest_ManualScore_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(UEnvQueryTest_ManualScore)
 
 
-#define FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h_11_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UEnvQueryTest_ManualScore(UEnvQueryTest_ManualScore&&) = delete; \
 	UEnvQueryTest_ManualScore(const UEnvQueryTest_ManualScore&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~UEnvQueryTest_ManualScore();
 
 
-#define FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h_7_PROLOG
-#define FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h_10_GENERATED_BODY \
+#define FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h_8_PROLOG
+#define FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h_11_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h_10_INCLASS_NO_PURE_DECLS \
-	FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h_10_ENHANCED_CONSTRUCTORS \
+	FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h_11_INCLASS_NO_PURE_DECLS \
+	FID_GraduationProject_Source_GraduationProject_EnvQueryTest_ManualScore_h_11_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

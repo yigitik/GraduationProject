@@ -1,9 +1,10 @@
 #include "EnvQueryTest_ManualScore.h"
 
+#include "Components/PrimitiveComponent.h"
+#include "DrawDebugHelpers.h"
+#include "EngineUtils.h"
 #include "EnvironmentQuery/EnvQueryTypes.h"
 #include "EnvironmentQuery/Items/EnvQueryItemType_Point.h"
-#include "EngineUtils.h"        // TActorIterator
-#include "DrawDebugHelpers.h"   // DrawDebugString
 
 UEnvQueryTest_ManualScore::UEnvQueryTest_ManualScore()
 {
@@ -11,7 +12,6 @@ UEnvQueryTest_ManualScore::UEnvQueryTest_ManualScore()
 
 	TestPurpose = EEnvTestPurpose::Score;
 	FilterType = EEnvTestFilterType::Maximum;
-
 	Cost = EEnvTestCost::Low;
 }
 
@@ -19,10 +19,64 @@ namespace
 {
 	struct FTaggedActorInfo
 	{
+		AActor* Actor = nullptr;
+		UPrimitiveComponent* DetectionArea = nullptr;
 		FVector Location = FVector::ZeroVector;
 		bool bWeak = false;
 		bool bStrong = false;
+		bool bHasDetectionOverlap = false;
 	};
+
+	static UPrimitiveComponent* FindDetectionAreaComponent(AActor* Actor, const FName& WantedName)
+	{
+		if (!IsValid(Actor))
+		{
+			return nullptr;
+		}
+
+		TArray<UPrimitiveComponent*> PrimitiveComponents;
+		Actor->GetComponents<UPrimitiveComponent>(PrimitiveComponents);
+
+		if (PrimitiveComponents.Num() == 0)
+		{
+			return nullptr;
+		}
+
+		if (WantedName.IsNone())
+		{
+			return PrimitiveComponents[0];
+		}
+
+		const FString WantedNameString = WantedName.ToString();
+
+		for (UPrimitiveComponent* PrimComp : PrimitiveComponents)
+		{
+			if (!IsValid(PrimComp))
+			{
+				continue;
+			}
+
+			if (PrimComp->GetFName() == WantedName)
+			{
+				return PrimComp;
+			}
+		}
+
+		for (UPrimitiveComponent* PrimComp : PrimitiveComponents)
+		{
+			if (!IsValid(PrimComp))
+			{
+				continue;
+			}
+
+			if (PrimComp->GetName().Contains(WantedNameString))
+			{
+				return PrimComp;
+			}
+		}
+
+		return nullptr;
+	}
 }
 
 void UEnvQueryTest_ManualScore::RunTest(FEnvQueryInstance& QueryInstance) const
@@ -33,20 +87,53 @@ void UEnvQueryTest_ManualScore::RunTest(FEnvQueryInstance& QueryInstance) const
 		return;
 	}
 
-	// Enemy'leri 1 kez topla (performans için)
 	TArray<FTaggedActorInfo> Enemies;
+	Enemies.Reserve(32);
+
+	// Sahnedeki BP_BaseAlly actorlerini topla.
 	if (EnemyClass)
 	{
 		for (TActorIterator<AActor> ItActor(World, EnemyClass); ItActor; ++ItActor)
 		{
-			AActor* A = *ItActor;
+			AActor* Actor = *ItActor;
+			if (!IsValid(Actor))
+			{
+				continue;
+			}
 
 			FTaggedActorInfo Info;
-			Info.Location = A->GetActorLocation();
-			Info.bWeak = (WeakTagName != NAME_None) && A->ActorHasTag(WeakTagName);
-			Info.bStrong = (StrongTagName != NAME_None) && A->ActorHasTag(StrongTagName);
+			Info.Actor = Actor;
+			Info.Location = Actor->GetActorLocation();
+			Info.bWeak = (WeakTagName != NAME_None) && Actor->ActorHasTag(WeakTagName);
+			Info.bStrong = (StrongTagName != NAME_None) && Actor->ActorHasTag(StrongTagName);
+			Info.DetectionArea = FindDetectionAreaComponent(Actor, DetectionAreaComponentName);
 
 			Enemies.Add(Info);
+		}
+	}
+
+	// DetectionArea overlap bilgisini bir kez hesapla.
+	for (int32 i = 0; i < Enemies.Num(); ++i)
+	{
+		UPrimitiveComponent* AreaA = Enemies[i].DetectionArea;
+		if (!IsValid(AreaA))
+		{
+			continue;
+		}
+
+		for (int32 j = i + 1; j < Enemies.Num(); ++j)
+		{
+			UPrimitiveComponent* AreaB = Enemies[j].DetectionArea;
+			if (!IsValid(AreaB))
+			{
+				continue;
+			}
+
+			if (AreaA->IsOverlappingComponent(AreaB))
+			{
+				Enemies[i].bHasDetectionOverlap = true;
+				Enemies[j].bHasDetectionOverlap = true;
+			}
 		}
 	}
 
@@ -55,12 +142,12 @@ void UEnvQueryTest_ManualScore::RunTest(FEnvQueryInstance& QueryInstance) const
 	for (FEnvQueryInstance::ItemIterator It(this, QueryInstance); It; ++It)
 	{
 		float RawScore = 0.0f;
-
 		const FVector ItemLoc = GetItemLocation(QueryInstance, It.GetIndex());
 
 		bool bAnyEnemyNear = false;
 		bool bNearWeak = false;
 		bool bNearStrong = false;
+		bool bNearOverlapActor = false;
 
 		for (const FTaggedActorInfo& Enemy : Enemies)
 		{
@@ -68,19 +155,19 @@ void UEnvQueryTest_ManualScore::RunTest(FEnvQueryInstance& QueryInstance) const
 			const float Dy = Enemy.Location.Y - ItemLoc.Y;
 			const float Dist2DSq = (Dx * Dx) + (Dy * Dy);
 
-			if (Dist2DSq <= RadiusSq)
+			if (Dist2DSq > RadiusSq)
 			{
-				bAnyEnemyNear = true;
+				continue;
+			}
 
-				// “var mı?” mantığı: stacklemesin
-				bNearWeak |= Enemy.bWeak;
-				bNearStrong |= Enemy.bStrong;
+			bAnyEnemyNear = true;
+			bNearWeak |= Enemy.bWeak;
+			bNearStrong |= Enemy.bStrong;
+			bNearOverlapActor |= Enemy.bHasDetectionOverlap;
 
-				// ikisi de bulunduysa hızlı çık
-				if (bNearWeak && bNearStrong)
-				{
-					break;
-				}
+			if (bNearWeak && bNearStrong && bNearOverlapActor)
+			{
+				break;
 			}
 		}
 
@@ -97,22 +184,21 @@ void UEnvQueryTest_ManualScore::RunTest(FEnvQueryInstance& QueryInstance) const
 			{
 				RawScore -= StrongTagPenalty;
 			}
+
+			if (bNearOverlapActor)
+			{
+				RawScore -= DetectionOverlapPenalty;
+			}
 		}
 
 		RawScore = FMath::Clamp(RawScore, 0.0f, 1.0f);
-
-		// EQS scoring (engine normalize edebilir; bu normal)
 		It.SetScore(TestPurpose, FilterType, RawScore, 0.0f, 1.0f);
 
-		// DEBUG: senin RawScore'unu doğrudan noktada göster
-		// Not: QueryInstance.bStoreDebugInfo genelde EQS debug açıksa true olur.
 		if (bDrawRawScore && QueryInstance.bStoreDebugInfo)
 		{
 			const FVector TextLoc = ItemLoc + FVector(0.0f, 0.0f, DebugLabelZOffset);
-			const FString Txt = FString::Printf(TEXT("raw=%.2f"), RawScore);
-
-			// bDrawShadow=true yazıyı okunur yapar
-			DrawDebugString(World, TextLoc, Txt, nullptr, FColor::White, DebugDuration, true);
+			const FString DebugText = FString::Printf(TEXT("raw=%.2f"), RawScore);
+			DrawDebugString(World, TextLoc, DebugText, nullptr, FColor::White, DebugDuration, true);
 		}
 	}
 }
@@ -124,5 +210,7 @@ FText UEnvQueryTest_ManualScore::GetDescriptionTitle() const
 
 FText UEnvQueryTest_ManualScore::GetDescriptionDetails() const
 {
-	return FText::FromString(TEXT("Default score = 0. Adds proximity bonus if EnemyClass is within XY radius. Weak adds +, Strong subtracts -. Draws raw score on points for debug."));
+	return FText::FromString(
+		TEXT("Scores EQS points by nearby BP_BaseAlly actors. Weak adds bonus, Strong applies penalty, DetectionArea overlap applies extra penalty.")
+	);
 }

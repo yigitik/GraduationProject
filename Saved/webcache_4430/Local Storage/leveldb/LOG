@@ -1,57 +1,75 @@
-2026/03/11-14:38:52.403 515c Reusing MANIFEST C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2026/03/11-14:38:52.408 515c Recovering log #3
-2026/03/11-14:38:52.409 515c Reusing old log C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/webcache_4430\Local Storage\leveldb/000003.log 
-2026/03/11-14:40:56.869 74ac Level-0 table #5: started
-2026/03/11-14:40:56.883 74ac Level-0 table #5: 64731 bytes OK
-2026/03/11-14:40:56.885 74ac Delete type=0 #3
-2026/03/11-14:46:56.878 582c Level-0 table #7: started
-2026/03/11-14:46:56.881 582c Level-0 table #7: 68247 bytes OK
-2026/03/11-14:46:56.883 582c Delete type=0 #4
-2026/03/11-14:52:56.872 789c Level-0 table #9: started
-2026/03/11-14:52:56.875 789c Level-0 table #9: 69418 bytes OK
-2026/03/11-14:52:56.877 789c Delete type=0 #6
-2026/03/11-14:58:56.872 8104 Level-0 table #11: started
-2026/03/11-14:58:56.876 8104 Level-0 table #11: 70001 bytes OK
-2026/03/11-14:58:56.877 8104 Delete type=0 #8
-2026/03/11-15:04:56.872 508c Level-0 table #13: started
-2026/03/11-15:04:56.875 508c Level-0 table #13: 70001 bytes OK
-2026/03/11-15:04:56.877 508c Delete type=0 #10
-2026/03/11-15:10:56.880 5e1c Level-0 table #15: started
-2026/03/11-15:10:56.884 5e1c Level-0 table #15: 70127 bytes OK
-2026/03/11-15:10:56.885 5e1c Delete type=0 #12
-2026/03/11-15:10:56.885 5e1c Compacting 4@0 + 1@1 files
-2026/03/11-15:10:56.888 5e1c Generated table #16@0: 3 keys, 11867 bytes
-2026/03/11-15:10:56.888 5e1c Compacted 4@0 + 1@1 files => 11867 bytes
-2026/03/11-15:10:56.888 5e1c compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/11-15:10:56.889 5e1c Delete type=2 #7
-2026/03/11-15:10:56.889 5e1c Delete type=2 #9
-2026/03/11-15:10:56.889 5e1c Delete type=2 #11
-2026/03/11-15:10:56.889 5e1c Delete type=2 #13
-2026/03/11-15:10:56.889 5e1c Delete type=2 #15
-2026/03/11-15:15:56.873 6fa8 Level-0 table #18: started
-2026/03/11-15:15:56.876 6fa8 Level-0 table #18: 68637 bytes OK
-2026/03/11-15:15:56.877 6fa8 Delete type=0 #14
-2026/03/11-15:19:56.869 79a0 Level-0 table #20: started
-2026/03/11-15:19:56.872 79a0 Level-0 table #20: 69583 bytes OK
-2026/03/11-15:19:56.873 79a0 Delete type=0 #17
-2026/03/11-15:23:56.882 3f78 Level-0 table #22: started
-2026/03/11-15:23:56.885 3f78 Level-0 table #22: 70325 bytes OK
-2026/03/11-15:23:56.886 3f78 Delete type=0 #19
-2026/03/11-15:27:56.868 7a64 Level-0 table #24: started
-2026/03/11-15:27:56.871 7a64 Level-0 table #24: 70325 bytes OK
-2026/03/11-15:27:56.872 7a64 Delete type=0 #21
-2026/03/11-15:27:56.873 7a64 Compacting 4@0 + 1@1 files
-2026/03/11-15:27:56.876 7a64 Generated table #25@0: 4 keys, 17790 bytes
-2026/03/11-15:27:56.876 7a64 Compacted 4@0 + 1@1 files => 17790 bytes
-2026/03/11-15:27:56.876 7a64 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/11-15:27:56.877 7a64 Delete type=2 #16
-2026/03/11-15:27:56.877 7a64 Delete type=2 #18
-2026/03/11-15:27:56.877 7a64 Delete type=2 #20
-2026/03/11-15:27:56.877 7a64 Delete type=2 #22
-2026/03/11-15:27:56.877 7a64 Delete type=2 #24
-2026/03/11-15:31:56.873 42b8 Level-0 table #27: started
-2026/03/11-15:31:56.876 42b8 Level-0 table #27: 70325 bytes OK
-2026/03/11-15:31:56.878 42b8 Delete type=0 #23
-2026/03/11-15:35:56.873 85ac Level-0 table #29: started
-2026/03/11-15:35:56.876 85ac Level-0 table #29: 70325 bytes OK
-2026/03/11-15:35:56.877 85ac Delete type=0 #26
+2026/03/31-15:13:45.899 8c6c Reusing MANIFEST C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2026/03/31-15:13:45.903 8c6c Recovering log #79
+2026/03/31-15:13:45.904 8c6c Reusing old log C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/webcache_4430\Local Storage\leveldb/000079.log 
+2026/03/31-15:15:24.274 1708 Level-0 table #84: started
+2026/03/31-15:15:24.288 1708 Level-0 table #84: 77874 bytes OK
+2026/03/31-15:15:24.294 1708 Delete type=0 #79
+2026/03/31-15:16:49.084 4c5c Level-0 table #86: started
+2026/03/31-15:16:49.087 4c5c Level-0 table #86: 77659 bytes OK
+2026/03/31-15:16:49.088 4c5c Delete type=0 #83
+2026/03/31-15:18:49.077 5ee4 Level-0 table #88: started
+2026/03/31-15:18:49.080 5ee4 Level-0 table #88: 77876 bytes OK
+2026/03/31-15:18:49.082 5ee4 Delete type=0 #85
+2026/03/31-16:11:24.820 3840 Level-0 table #90: started
+2026/03/31-16:11:24.823 3840 Level-0 table #90: 78195 bytes OK
+2026/03/31-16:11:24.824 3840 Delete type=0 #87
+2026/03/31-16:11:24.833 3840 Compacting 4@0 + 1@1 files
+2026/03/31-16:11:24.835 3840 Generated table #91@0: 4 keys, 39258 bytes
+2026/03/31-16:11:24.835 3840 Compacted 4@0 + 1@1 files => 39258 bytes
+2026/03/31-16:11:24.836 3840 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/31-16:11:24.836 3840 Delete type=2 #81
+2026/03/31-16:11:24.836 3840 Delete type=2 #84
+2026/03/31-16:11:24.836 3840 Delete type=2 #86
+2026/03/31-16:11:24.836 3840 Delete type=2 #88
+2026/03/31-16:11:24.836 3840 Delete type=2 #90
+2026/03/31-16:12:05.070 5ee4 Level-0 table #93: started
+2026/03/31-16:12:05.078 5ee4 Level-0 table #93: 78055 bytes OK
+2026/03/31-16:12:05.082 5ee4 Delete type=0 #89
+2026/03/31-16:12:20.198 3840 Level-0 table #95: started
+2026/03/31-16:12:20.205 3840 Level-0 table #95: 78023 bytes OK
+2026/03/31-16:12:20.210 3840 Delete type=0 #92
+2026/03/31-16:13:12.906 5ee4 Level-0 table #97: started
+2026/03/31-16:13:12.908 5ee4 Level-0 table #97: 78651 bytes OK
+2026/03/31-16:13:12.910 5ee4 Delete type=0 #94
+2026/03/31-16:13:55.619 1ae0 Level-0 table #99: started
+2026/03/31-16:13:55.627 1ae0 Level-0 table #99: 78663 bytes OK
+2026/03/31-16:13:55.631 1ae0 Delete type=0 #96
+2026/03/31-16:13:55.632 1ae0 Compacting 4@0 + 1@1 files
+2026/03/31-16:13:55.637 1ae0 Generated table #100@0: 4 keys, 39546 bytes
+2026/03/31-16:13:55.637 1ae0 Compacted 4@0 + 1@1 files => 39546 bytes
+2026/03/31-16:13:55.641 1ae0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/31-16:13:55.641 1ae0 Delete type=2 #91
+2026/03/31-16:13:55.641 1ae0 Delete type=2 #93
+2026/03/31-16:13:55.641 1ae0 Delete type=2 #95
+2026/03/31-16:13:55.641 1ae0 Delete type=2 #97
+2026/03/31-16:13:55.641 1ae0 Delete type=2 #99
+2026/03/31-16:14:06.218 5ee4 Level-0 table #102: started
+2026/03/31-16:14:06.220 5ee4 Level-0 table #102: 78846 bytes OK
+2026/03/31-16:14:06.222 5ee4 Delete type=0 #98
+2026/03/31-16:14:16.327 1ae0 Level-0 table #104: started
+2026/03/31-16:14:16.330 1ae0 Level-0 table #104: 78883 bytes OK
+2026/03/31-16:14:16.331 1ae0 Delete type=0 #101
+2026/03/31-16:14:40.834 5ee4 Level-0 table #106: started
+2026/03/31-16:14:40.843 5ee4 Level-0 table #106: 78819 bytes OK
+2026/03/31-16:14:40.848 5ee4 Delete type=0 #103
+2026/03/31-16:15:14.207 1ae0 Level-0 table #108: started
+2026/03/31-16:15:14.210 1ae0 Level-0 table #108: 78431 bytes OK
+2026/03/31-16:15:14.211 1ae0 Delete type=0 #105
+2026/03/31-16:15:14.212 1ae0 Compacting 4@0 + 1@1 files
+2026/03/31-16:15:14.214 1ae0 Generated table #109@0: 4 keys, 39418 bytes
+2026/03/31-16:15:14.214 1ae0 Compacted 4@0 + 1@1 files => 39418 bytes
+2026/03/31-16:15:14.215 1ae0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/31-16:15:14.216 1ae0 Delete type=2 #100
+2026/03/31-16:15:14.216 1ae0 Delete type=2 #102
+2026/03/31-16:15:14.216 1ae0 Delete type=2 #104
+2026/03/31-16:15:14.216 1ae0 Delete type=2 #106
+2026/03/31-16:15:14.216 1ae0 Delete type=2 #108
+2026/03/31-16:15:24.272 5ee4 Level-0 table #111: started
+2026/03/31-16:15:24.279 5ee4 Level-0 table #111: 78550 bytes OK
+2026/03/31-16:15:24.284 5ee4 Delete type=0 #107
+2026/03/31-16:15:34.424 1ae0 Level-0 table #113: started
+2026/03/31-16:15:34.431 1ae0 Level-0 table #113: 78595 bytes OK
+2026/03/31-16:15:34.436 1ae0 Delete type=0 #110
+2026/03/31-16:34:01.482 1e00 Level-0 table #115: started
+2026/03/31-16:34:01.488 1e00 Level-0 table #115: 78315 bytes OK
+2026/03/31-16:34:01.492 1e00 Delete type=0 #112
