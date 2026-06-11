@@ -1,6 +1,9 @@
-2026/06/01-20:15:56.755 3108 Reusing MANIFEST C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
-2026/06/01-20:15:56.761 3108 Recovering log #165
-2026/06/01-20:15:56.762 3108 Reusing old log C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/webcache_4430\Local Storage\leveldb/000165.log 
-2026/06/01-20:16:44.945 1a40 Level-0 table #169: started
-2026/06/01-20:16:44.948 1a40 Level-0 table #169: 75982 bytes OK
-2026/06/01-20:16:44.949 1a40 Delete type=0 #165
+2026/06/10-17:39:02.256 40f0 Reusing MANIFEST C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/webcache_4430\Local Storage\leveldb/MANIFEST-000001
+2026/06/10-17:39:02.260 40f0 Recovering log #238
+2026/06/10-17:39:02.261 40f0 Reusing old log C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/webcache_4430\Local Storage\leveldb/000238.log 
+2026/06/10-17:39:57.790 98b4 Level-0 table #243: started
+2026/06/10-17:39:57.793 98b4 Level-0 table #243: 79314 bytes OK
+2026/06/10-17:39:57.794 98b4 Delete type=0 #238
+2026/06/10-17:41:27.096 8474 Level-0 table #245: started
+2026/06/10-17:41:27.099 8474 Level-0 table #245: 79118 bytes OK
+2026/06/10-17:41:27.100 8474 Delete type=0 #242
