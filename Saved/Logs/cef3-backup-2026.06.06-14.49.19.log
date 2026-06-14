@@ -1,7 +1,0 @@
-[0606/174357.687:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
-[0606/174720.938:ERROR:cache_util_win.cc(20)] Unable to move the cache: Eriþim engellendi. (0x5)
-[0606/174720.939:ERROR:cache_util.cc(144)] Unable to move cache folder C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/webcache_4430\Cache to C:/Users/Yigit/Documents/GitHub/GraduationProject/Saved/webcache_4430\old_Cache_000
-[0606/174720.939:ERROR:disk_cache.cc(184)] Unable to create cache
-[0606/174723.947:WARNING:value_store_frontend.cc(45)] Reading mhjfbmdgcfjbbpaeojofohoefgiehjai.alarms from  failed: IO error: .../LOCK: File currently in use. (ChromeMethodBFE: 15::LockFile::2)
-[0606/174735.472:WARNING:spdy_session.cc(3431)] Received HEADERS for invalid stream 65
-[0606/174919.809:ERROR:gpu_init.cc(426)] Passthrough is not supported, GL is disabled
